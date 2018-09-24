@@ -1,0 +1,32 @@
+/* Folha de estilo principal  do site html5 +css3
+*	@author Kevin Souza
+*/
+ 
+/************** Importando font ********/
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
+/*********** Principal ***********/
+body{
+	font-family: 'Open Sans', sans-serif; color : #00BB;
+	background-color: #00008B;
+
+/* USO DE UMA IMAGEM COMO BACKGROUND */ /*
+	background-image: url('../imagens/textura.jpg');
+	background-attachment: fixed; /*fixa o background */
+/*	background-size: cover; /*manter o tamanho de forma responsiva */
+
+	font-size: 1em; /* 1 em é igual a 16px */
+
+
+}
+#main{
+max-width: 1024px;
+background-color: #ffffff; 
+margin: 0 auto; /*centralizar site */
+}
+
+/************** Tratamento responsivo ************/
+
+img {
+	max-width: 100%; /*toda as imagens do site ficam responsivas */
+}
