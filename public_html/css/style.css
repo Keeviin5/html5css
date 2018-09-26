@@ -27,6 +27,25 @@ margin: 0 auto; /*centralizar site */
 
 /************** Tratamento responsivo ************/
 
+/*************** cabeçalho ***********/
+	header{
+		width: 100%;
+		height: 200px;
+		background-color: #00BB; /* dica  para ajustar elementos */
+		height: left;
+	}
+	header img{
+		width: 195px;
+		height: 200px;
+		margin-top: 10px;
+		margin-left: 0px;
+
+
+}
+
+/********************** Menu *******************/
+
 img {
 	max-width: 100%; /*toda as imagens do site ficam responsivas */
 }
+
