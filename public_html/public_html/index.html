@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<!-- favicon -->
+	<link rel="icon" href="imagens/favicon.png"> 
+	<title>Home - Chelsea</title>
+	<!-- SEO Importante -->
+	<meta name = "description" content = "Site do Chelsea">
+	<!-- A linha abaixo "garante" o layout responsivo nos diversos dispositivos mobile -->
+		<meta name="viewport" content="width=device-width,  initial-scale=1.0">
+	<!-- Link com a folha de estilo -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- CDN Jquery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<!-- estrutura principal -->
+	<div id="main">
+
+		<!-- cabeçalho -->
+		<header>
+			<a href="index.html"><img src="imagens/logo2.png" title="Imagem do time chelsea" alt="Logotipo do site"></a>
+		</header>
+
+		<!-- menu -->
+		<nav class="Menu">
+			<!-- Classe usada para fixar menu no JS -->
+		<!-- &#9776 (desenho 3 linhas horizontais-->
+		<a href="#" class="Mobile">&#9776; Menu</a>
+			<!-- ul>li*4>a -->
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="#" class="Detalhes">Mais Sobre Nós </a>
+					<ul>
+						<li><a href="conteudo/jogadores.html">Jogadores</a></li>
+						<li><a href="conteudo/titulos.html">Titulos</a></li>
+					<li><a href="https://pt.wikipedia.org/wiki/Chelsea_Football_Club" target="_blank">Saiba mais ainda</a></li>
+					</ul>
+				</li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+
+		<!-- conteúdo -->
+		<section id="banner">
+			<img src="imagens/banner8.jpg" alt="Curso básico de html5 e css3">
+			<h1> Aqui você encontra alguma coisas sobre o time Chelsea
+		
+		</section>
+
+			<section id="heading">
+			<h2>Jogar um futebol</h2>
+		</section>
+
+		<section id="destaque">
+			<!-- bloco 1 -->
+
+			<div class="blocos">
+			<img src="imagens/111.jpg" alt="">
+			<h2>Futebol </h2>
+			<p>Jogue futebol</p>
+			<a href="#">Venha Jogar</a>
+			</div>
+			
+			<!-- bloco 2 -->
+			<div class="blocos">
+			<img src="imagens/222.jpg" alt="">
+			<h2>Futebola</h2>
+			<p>Jogue bola</p>
+			<a href="#">Venha Jogar</a>
+			</div>
+
+			<!-- bloco 3 -->
+			<div class="blocos">
+			<img src="imagens/333.png" alt="">
+			<h2>Futebolbol</h2>
+			<p>Jogue bolbol</p>
+			<a href="#">Venha Jogar</a>
+			</div>
+
+
+			
+		</section> 
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/GA7giLZs19s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+		<!-- rodapé -->
+		<footer>
+			<p>©2018 - Kevin Souza</p>			
+		</footer>
+	</div>
+<script src="js/menuresponsivo.js"></script>
+<script src="js/fixamenu.js"></script>
+<script src="js/removeclick.js"></script>
+<script src="js/tela.js"></script>		
+</body>
+</html>

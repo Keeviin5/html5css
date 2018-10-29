@@ -1,34 +1,31 @@
 /**
-Estudo do float 
-@author Kevin Souza
-Data 26/09/2018
+* Estudo do float
+* @author Kevin Souza
+* Data 26/09/2018
 */
+
 /*
-float:right(flutua a direita do elemento anterior)
-float:left(flutua a esquerda do elemento anterior)
+float: right (flutua à direita do elemento anterior)
+float: left (flutua à squerda do elemento anterior)
 */
 
-
-
-
-
-#vermelho {
-	background-color: #DC143C;
+#vermelho{
 	width: 250px;
 	height: 250px;
+	background-color: #ff0000;
 	float: left;
 }
 
-#verde {
-	background-color: #00FF7F;
+#verde{
 	width: 250px;
 	height: 250px;
+	background-color: #00ff00;
 	float: left;
-
 }
+
 #azul{
-	background-color: #000BBB;
 	width: 250px;
 	height: 250px;
+	background-color: #0000ff;
 	float: left;
 }
